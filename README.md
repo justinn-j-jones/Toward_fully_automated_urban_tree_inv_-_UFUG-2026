@@ -72,7 +72,7 @@ All notebooks assume the following structure:
 
 ---
 
-## **Appendix A — 00_LAS_synpts_raster (Python)**
+## **00_LAS_synpts_raster (Python)**
 
 This notebook converts a raster into a synthetic point cloud by generating one XYZ point per raster
 cell, storing the cell value as point elevation.
@@ -89,7 +89,7 @@ cell, storing the cell value as point elevation.
 
 ---
 
-## **Appendix B — 01_RMD1 (R Markdown)**
+## **01_RMD1 (R Markdown)**
 
 The first step toward automating tree measurements.
 
@@ -104,7 +104,7 @@ The first step toward automating tree measurements.
 
 ---
 
-## **Appendix C — 02_lidR_tt_cw (Python / R hybrid)**
+## **02_lidR_tt_cw (Python / R hybrid)**
 
 This notebook performs automated tree‑top (TT) detection and crown‑width (CW) extraction using
 `lidR` results as inputs.
@@ -121,7 +121,7 @@ This notebook performs automated tree‑top (TT) detection and crown‑width (CW
 
 ---
 
-## **Appendix D — 03_RMD2 (R Markdown)**
+## **03_RMD2 (R Markdown)**
 
 The third step in the automated tree‑measurement workflow.
 
@@ -132,7 +132,7 @@ The third step in the automated tree‑measurement workflow.
 
 ---
 
-## **Appendix E — 04_TreeLS_inv (Python)**
+## **04_TreeLS_inv (Python)**
 
 Final step in the workflow using TreeLS outputs.
 
