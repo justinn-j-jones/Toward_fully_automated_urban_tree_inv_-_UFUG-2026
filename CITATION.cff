@@ -21,6 +21,9 @@ authors:
     family-names: Perkin
     affiliation: Texas A&M University
     orcid: 'https://orcid.org/0000-0003-4928-9178'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.19121499
 repository-code: >-
   https://github.com/justinn-j-jones/Toward_fully_automated_urban_tree_inv_-_UFUG-2026
 url: 'https://lasers.tamu.edu/'
