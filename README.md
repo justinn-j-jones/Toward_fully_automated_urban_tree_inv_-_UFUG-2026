@@ -38,7 +38,7 @@ GitHub will automatically provide APA, BibTeX, and other formats through the
 
 ---
 
-## 📝 Abstract (from CFF)
+## 📝 Abstract
 
 This repository contains supporting materials, code, and notebooks associated with the publication
 “Toward Fully Automated Urban Tree Inventory: Integrating Mobile Lidar and Open‑Source Tools."
