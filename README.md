@@ -2,11 +2,13 @@
 
 Supporting materials, code, and notebooks for  
 **“Toward Fully Automated Urban Tree Inventory: Integrating Mobile Lidar and Open‑Source Tools”**  
-published in *Urban Forestry & Urban Greening* (2026‑02‑20).  
-Article link: https://doi.org/10.1016/j.ufug.2026.129362
 
-This repository provides reproducible workflows and example scripts demonstrating mobile lidar
-data collection, remote measurement of urban trees, and automated tree‑detection workflows using
+published in *Urban Forestry & Urban Greening* (2026‑02‑20).  
+Article link: https://doi.org/10.1016/j.ufug.2026.129362  
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19121499.svg)](https://doi.org/10.5281/zenodo.19121499)
+
+This repository provides reproducible workflows and example scripts demonstrating mobile lidar data collection, remote measurement of urban trees, and automated tree‑detection workflows using
 open‑source tools. The materials here support the analysis presented in the UFUG publication and
 serve as a resource for researchers and practitioners working with MLS data.
 
