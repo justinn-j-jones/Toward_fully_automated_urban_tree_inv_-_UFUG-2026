@@ -27,9 +27,7 @@ If you use the code, notebooks, or workflows in this repository, please cite:
 
 ### **Original UFUG Journal Article**
 
-Jones, J.J., S.C. Popescu, J. Perkins, and S. Webb, 2026. *Toward Fully Automated Urban Tree Inventory: Integrating Mobile Lidar and Open-Source Tools.* Urban Forestry & Urban Greening. 
-
-https://doi.org/10.1016/j.ufug.2026.129362
+Jones, J.J., S.C. Popescu, J. Perkins, and S. Webb, 2026. *Toward Fully Automated Urban Tree Inventory: Integrating Mobile Lidar and Open-Source Tools.* Urban Forestry & Urban Greening. https://doi.org/10.1016/j.ufug.2026.129362
 
 Machine‑readable citation metadata is provided via the included `CITATION.cff` file.  
 GitHub will automatically provide APA, BibTeX, and other formats through the  
