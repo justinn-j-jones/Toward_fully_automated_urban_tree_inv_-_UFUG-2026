@@ -1,0 +1,50 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Toward_fully_automated_urban_tree_inv_-_UFUG-2026
+message: >-
+  If you use this software or the accompanying notebooks,
+  please cite both this repository and the original UFUG
+  publication.
+type: software
+authors:
+  - given-names: Justinn J.
+    family-names: Jones
+    affiliation: Texas A&M University
+    orcid: 'https://orcid.org/0009-0007-5032-6657'
+  - given-names: Sorin C.
+    family-names: Popescu
+    affiliation: Texas A&M University
+    orcid: 'https://orcid.org/0000-0002-8155-8801'
+  - given-names: Joshuah S.
+    family-names: Perkin
+    affiliation: Texas A&M University
+    orcid: 'https://orcid.org/0000-0003-4928-9178'
+repository-code: >-
+  https://github.com/justinn-j-jones/Toward_fully_automated_urban_tree_inv_-_UFUG-2026
+url: 'https://lasers.tamu.edu/'
+abstract: >
+  This repository contains supporting materials, code, and
+  notebooks associated with the publication "Toward Fully
+  Automated Urban Tree Inventory: Integrating Mobile Lidar
+  and Open-Source Tools." The study demonstrates
+  methodologies for mobile lidar data collection, remote
+  measurement of urban trees, and automation of tree
+  detection and validation workflows. Two open-source R
+  packages (lidR and TreeLS) were evaluated, showing strong
+  performance in estimating tree height, crown metrics, and
+  diameter at breast height (DBH), illustrating the
+  viability of mobile lidar as an efficient alternative to
+  traditional urban tree inventory methods.
+keywords:
+  - urban forestry
+  - mobile lidar
+  - MLS
+  - automated tree inventory
+  - open-source tools
+  - forest structure
+  - lidar analysis
+license: MIT
+version: 1.0.0
+date-released: '2026-02-20'
