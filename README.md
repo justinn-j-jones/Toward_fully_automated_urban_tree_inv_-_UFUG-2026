@@ -59,7 +59,7 @@ users may test workflows and reproduce key steps in the methodology.
 
 ---
 
-# 📚 Appendices (Notebook Documentation)
+# 📚 Notebook Documentation
 
 The following notebooks comprise the UFUG automated tree‑inventory workflow.  
 Each appendix corresponds to a core step in the pipeline.
