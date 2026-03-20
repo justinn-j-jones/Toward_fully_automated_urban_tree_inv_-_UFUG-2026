@@ -2,7 +2,6 @@
 
 Supporting materials, code, and notebooks for  
 **“Toward Fully Automated Urban Tree Inventory: Integrating Mobile Lidar and Open‑Source Tools”**  
-
 published in *Urban Forestry & Urban Greening* (2026‑02‑20).  
 Article link: https://doi.org/10.1016/j.ufug.2026.129362  
 
