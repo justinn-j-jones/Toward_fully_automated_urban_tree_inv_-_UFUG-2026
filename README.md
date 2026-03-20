@@ -12,7 +12,7 @@ serve as a resource for researchers and practitioners working with MLS data.
 
 This directory contains all Python and R notebooks used to process and analyze data for the project.
 Some files (e.g., `CHM.tif`, `MLS.las`) are too large to upload, but a **sample of 10 trees** is
-provided in the `/data/Sample/` subdirectory. Output shapefiles, CSVs, and other results can be
+provided in the data folder. Output shapefiles, CSVs, and other results can be
 found in the corresponding `/Output/` folders within each notebook workflow.
 
 ---
