@@ -7,13 +7,14 @@ Article link: https://doi.org/10.1016/j.ufug.2026.129362
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19121499.svg)](https://doi.org/10.5281/zenodo.19121499)
 
-This repository provides reproducible workflows and example scripts demonstrating mobile lidar data collection, remote measurement of urban trees, and automated tree‑detection workflows using
+This repository provides reproducible workflows and example scripts demonstrating mobile lidar
+data collection, remote measurement of urban trees, and automated tree‑detection workflows using
 open‑source tools. The materials here support the analysis presented in the UFUG publication and
 serve as a resource for researchers and practitioners working with MLS data.
 
 This directory contains all Python and R notebooks used to process and analyze data for the project.
 Some files (e.g., `CHM.tif`, `MLS.las`) are too large to upload, but a **sample of 10 trees** is
-provided in the data folder. Output shapefiles, CSVs, and other results can be
+provided in the `/data/Sample/` subdirectory. Output shapefiles, CSVs, and other results can be
 found in the corresponding `/Output/` folders within each notebook workflow.
 
 ---
@@ -23,7 +24,7 @@ found in the corresponding `/Output/` folders within each notebook workflow.
 If you use the code, notebooks, or workflows in this repository, please cite:
 
 ### **Repository (Zenodo DOI)**  
-📌 DOI: _to be added after Zenodo release_
+📌 https://doi.org/10.5281/zenodo.19121499
 
 ### **Original UFUG Journal Article**
 
@@ -38,7 +39,7 @@ GitHub will automatically provide APA, BibTeX, and other formats through the
 
 ---
 
-## 📝 Abstract 
+## 📝 Abstract (from CFF)
 
 This repository contains supporting materials, code, and notebooks associated with the publication
 “Toward Fully Automated Urban Tree Inventory: Integrating Mobile Lidar and Open‑Source Tools."
