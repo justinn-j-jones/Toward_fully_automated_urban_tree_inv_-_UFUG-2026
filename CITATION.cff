@@ -1,32 +1,30 @@
-# This CITATION.cff file was generated with cffinit.
-# Visit https://bit.ly/cffinit to generate yours today!
-
 cff-version: 1.2.0
 title: Toward_fully_automated_urban_tree_inv_-_UFUG-2026
-message: >-
+message: >
   If you use this software or the accompanying notebooks,
   please cite both this repository and the original UFUG
   publication.
 type: software
+
 authors:
   - given-names: Justinn J.
     family-names: Jones
     affiliation: Texas A&M University
-    orcid: 'https://orcid.org/0009-0007-5032-6657'
+    orcid: "https://orcid.org/0009-0007-5032-6657"
   - given-names: Sorin C.
     family-names: Popescu
     affiliation: Texas A&M University
-    orcid: 'https://orcid.org/0000-0002-8155-8801'
+    orcid: "https://orcid.org/0000-0002-8155-8801"
   - given-names: Joshuah S.
     family-names: Perkin
     affiliation: Texas A&M University
-    orcid: 'https://orcid.org/0000-0003-4928-9178'
-identifiers:
-  - type: doi
-    value: 10.5281/zenodo.19121499
-repository-code: >-
-  https://github.com/justinn-j-jones/Toward_fully_automated_urban_tree_inv_-_UFUG-2026
-url: 'https://lasers.tamu.edu/'
+    orcid: "https://orcid.org/0000-0003-4928-9178"
+
+repository-code: "https://github.com/justinn-j-jones/Toward_fully_automated_urban_tree_inv_-_UFUG-2026"
+url: "https://lasers.tamu.edu/"
+
+doi: 10.5281/zenodo.19121499
+
 abstract: >
   This repository contains supporting materials, code, and
   notebooks associated with the publication "Toward Fully
@@ -40,6 +38,7 @@ abstract: >
   diameter at breast height (DBH), illustrating the
   viability of mobile lidar as an efficient alternative to
   traditional urban tree inventory methods.
+
 keywords:
   - urban forestry
   - mobile lidar
@@ -48,6 +47,23 @@ keywords:
   - open-source tools
   - forest structure
   - lidar analysis
+
 license: MIT
 version: 1.0.0
-date-released: '2026-02-20'
+date-released: "2026-02-20"
+
+preferred-citation:
+  type: article
+  title: "Toward Fully Automated Urban Tree Inventory: Integrating Mobile Lidar and Open-Source Tools"
+  authors:
+    - family-names: Jones
+      given-names: Justinn J.
+    - family-names: Popescu
+      given-names: Sorin C.
+    - family-names: Perkin
+      given-names: Joshuah S.
+    - family-names: Webb
+      given-names: Stephen L.
+  doi: 10.1016/j.ufug.2026.129362
+  journal: "Urban Forestry & Urban Greening"
+  year: 2026
