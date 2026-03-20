@@ -1,62 +1,72 @@
-# Toward Fully Automated Urban Tree Inventory: Integrating Mobile Lidar and Open-Source Tools
+# Toward_fully_automated_urban_tree_inv_-_UFUG-2026
 
-Jones, J.J., S.C. Popescu, J. Perkins, and S. Webb, 2026. Toward Fully Automated Urban Tree Inventory: Integrating Mobile Lidar and Open-Source Tools. Urban Forestry &amp; Urban Greening. https://doi.org/10.1016/j.ufug.2026.129362
+Supporting materials, code, and notebooks for  
+**“Toward Fully Automated Urban Tree Inventory: Integrating Mobile Lidar and Open‑Source Tools”**  
+published in *Urban Forestry & Urban Greening* (2026‑02‑20).  
+Original article DOI: https://doi.org/10.1016/j.ufug.2026.129362
 
+This repository provides reproducible workflows and example scripts demonstrating mobile lidar
+data collection, remote measurement of urban trees, and automated tree‑detection workflows using
+open‑source tools. The materials here support the analysis presented in the UFUG publication and
+serve as a resource for researchers and practitioners working with MLS data.
 
-This directory contains all python and R notebooks used to process and analyze data for our projects. Some files, such as CHM.tif and MLS.las, are much too large to upload here, but a sample of 10 trees is provided in the Sample sub-directory. Output shapefiles, CSVs, etc. can be found in the corresponding Output folders. 
+---
 
-## Sample mobile lidar scan (MLS) LAS
-Sample of 10 trees scanned with MLS from our project. The complete scans are far too large to upload here. 
+## 📖 Citation
 
-## Appendix A: 00_LAS_synpts_raster
-This notebook assumes the ipynb resides directly in the “main directory” with a ‘_input’ folder housing the input files. We will create and use an ‘output’ folder for output files.
+If you use this repository or the accompanying notebooks, please cite:
 
-"Synthetic Points from Raster $(SPR)$" will take an input raster and create a single point from each cell with the cell value, and output a new TXT, which can then be read into software (such as Quick Terrain Modeler) as XYZ (ASCII) and exported as LAZ / LAS. 
-<br><br>
-This is useful for gap-filling from a DEM or generating a "top of canopy LAS" from a CHM.
-<br><br>
-If it is necessary to replace negative Z values with 0, the last cell will write a new TXT. 
+### **Repository (Zenodo DOI)**  
+📌 DOI: _to be added after Zenodo release_
 
-## Appendix B: 01_RMD1
-This R markdown notebook is the first step towards automating the process of measuring trees.
+### **Original UFUG Journal Article**
 
-This notebook assumes the RMD resides directly in the "main directory" with a '\_input' folder housing the input files. We will create and use an 'output' folder for output files.
+Jones, J.J., Popescu, S.C., Perkin, J.S. (2026).  
+*Toward Fully Automated Urban Tree Inventory: Integrating Mobile Lidar and Open‑Source Tools.*  
+Urban Forestry & Urban Greening.  
+https://doi.org/10.1016/j.ufug.2026.129362
 
-## Appendix C: 02_lidR_tt_cw
-This ipynb is the second step towards automating the process of measuring trees.
+Machine‑readable citation metadata is provided via the included `CITATION.cff` file.
+GitHub will automatically supply BibTeX, APA, MLA, and other formats through the
+**“Cite this repository”** button.
 
-This notebook assumes the ipynb resides directly in the “main directory” with a ‘_input’ folder housing the input files. We will create and use an ‘output’ folder for output files.
+---
 
-- This notebook will take the `lidR` output tt points and cw polygons as inputs. 
-- These inputs will be joined to field data points and calculate Improved Crown Width (ICW). 
-- Output will be a CSV file and histograms. 
+## 📝 Abstract 
 
-## Appendix D: 03_RMD2
-This R markdown notebook is the third step towards automating the process of measuring trees.
+This repository contains supporting materials, code, and notebooks associated with the publication
+“Toward Fully Automated Urban Tree Inventory: Integrating Mobile Lidar and Open‑Source Tools."
+The study demonstrates methodologies for mobile lidar data collection, remote measurement of urban
+trees, and automation of tree detection and validation workflows. Two open‑source R packages
+(lidR and TreeLS) were evaluated, showing strong performance in estimating tree height, crown
+metrics, and diameter at breast height (DBH), illustrating the viability of mobile lidar as an
+efficient alternative to traditional urban tree inventory methods.
 
-This notebook assumes the RMD resides directly in the "main directory" with a '\_input' folder housing the input files. We will create and use an 'output' folder for output files.
+---
 
-## Appendix E: 04_TreeLS_inv
-This ipynb is the fourth step towards automating the process of measuring trees.
+## 🧑‍💻 Authors
 
-This notebook assumes the ipynb resides directly in the “main directory” with a ‘_input’ folder housing the input files. We will create and use an ‘output’ folder for output files.
+- **Justinn J. Jones** — Texas A&M University  
+  ORCID: https://orcid.org/0009-0007-5032-6657  
 
-- This notebook will take the `TreeLS` output CSV as an input and join to existing inventory list to create one master inventory. 
-- After joining, subsets will be created to run stats. 
-- Outputs will be CSV and SHP of master inventory list along with scatterplots. 
+- **Sorin C. Popescu** — Texas A&M University  
+  ORCID: https://orcid.org/0000-0002-8155-8801  
 
-# Contact 
+- **Joshuah S. Perkin** — Texas A&M University  
+  ORCID: https://orcid.org/0000-0003-4928-9178  
 
-**Justinn J. Jones ’24, GISP**
+---
 
-Graduate Research Assistant / FAA sUAS RP
+## 🔗 Useful Links
 
-LASERS Lab / WFES 360
+- **UFUG Article DOI:** https://doi.org/10.1016/j.ufug.2026.129362  
+- **Project Repository:** https://github.com/justinn-j-jones/Toward_fully_automated_urban_tree_inv_-_UFUG-2026  
+- **Lab Website:** https://lasers.tamu.edu/
 
-Department of Ecology & Conservation Biology
+---
 
-College of Agriculture & Life Sciences
+## 📝 License
 
-justinn.j.jones@tamu.edu
-
-**TEXAS A&M UNIVERSITY**
+This project is distributed under the **MIT License**.  
+You are free to use, modify, and distribute the code.  
+Please cite both the UFUG publication and the Zenodo DOI associated with this repository.
